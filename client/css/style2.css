@@ -36,7 +36,7 @@ h1 {
 }
 
 p {
-    color: #0D1321;
+    color: #0d1321;
     font-weight: 400;
 }
 
@@ -48,11 +48,12 @@ strong {
 }
 
 .noflow {
-    overflow:hidden;
+    overflow: hidden;
 }
 
 @media (max-width: 767px) {
-    .final_img, .sketches {
+    .final_img,
+    .sketches {
         overflow: auto;
     }
 }
